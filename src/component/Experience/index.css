@@ -1,0 +1,27 @@
+
+.experince-res{
+    display: none;
+}
+#experince-desktop{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.company-skills:hover{
+text-decoration: underline;
+color: rgb(110, 110, 247);
+}
+@media (max-width:991.98px) {
+    .experince-res{
+display: block;
+    }
+    .experince-desktop{
+        display: none;
+    }
+    #timelinecon{
+       display: flex;
+       width: 70%;
+    }
+}
