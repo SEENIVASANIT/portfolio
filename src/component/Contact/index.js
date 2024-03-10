@@ -211,7 +211,7 @@ const Contact = () => {
                 Contact details
               </h3>
 
-              <div className="d-flex align-items-center gap-4">
+              <div className=" contact-data d-flex align-items-center gap-4">
                 <img
                   src={location}
                   alt="location"
@@ -226,7 +226,7 @@ const Contact = () => {
                   2890/5 muniswaran colony sivakasi, TamilNadhu, India
                 </span>
               </div>
-              <div className="d-flex align-items-center gap-4">
+              <div className="contact-data d-flex align-items-center gap-4">
                 <img
                   src={email}
                   alt="email"
@@ -241,7 +241,7 @@ const Contact = () => {
                   seenivasan90it@gmail.com
                 </span>
               </div>
-              <div className="d-flex align-items-center gap-4">
+              <div className="contact-data d-flex align-items-center gap-4">
                 <img
                   src={phone}
                   alt="phone"
