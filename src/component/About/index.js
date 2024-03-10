@@ -276,7 +276,7 @@ const About = () => {
                           height="100%"
                         ></img>
                       </Col>
-                      <Col className="d-flex align-items-center justify-content-center ">
+                      <Col className="anout-me d-flex align-items-center justify-content-center w-100">
                         <div className="text-start">
                           <h1
                             style={{
