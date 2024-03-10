@@ -60,6 +60,13 @@
   
 
 @media (max-width:991.98px) {
+    .anout-me h1{
+        font-size:1.6rem ;
+    }
+    .anout-me p{
+        font-size: small;
+    }
+    
     .skills-section {
             padding: 6px;
             width: fit-content;
