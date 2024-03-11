@@ -1,0 +1,44 @@
+.contact-form{
+    background-color: white;
+    text-align: start;
+    border-radius: 10px;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+        box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19),0px 0px 0px 0px;; */
+    gap: 5;
+    padding: 50px;
+}
+.contact-input{
+    background-color: whitesmoke;
+        font-family: "GeneralSans-Regular";
+        width: 100%;
+        height: 3rem;
+        
+    
+}
+.contact-textarea{
+background-color: whitesmoke;
+    font-family: "GeneralSans-Regular";
+    width: 100%;
+    height: 8rem;
+    text-decoration: none;
+   
+}
+.contact-icon{
+    width: 2em;
+    height: 2em;
+}
+
+@media (max-width:991.98px) {
+    .contact-icon{
+        width: 2.5em;
+        height: 2.5em;
+
+    }
+    .contact-data{
+margin-left: -3vh;
+
+    }
+}
