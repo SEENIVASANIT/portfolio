@@ -286,7 +286,7 @@ const About = () => {
                           >
                             Hi I'm Seenivasan T,
                           </h1>
-                          <p className="font-noto-sans font-monospace">
+                          <p className="Poppins">
                             I am{" "}
                             <strong style={{ textDecoration: "underline" }}>
                               Full Stack Developer
@@ -307,7 +307,7 @@ const About = () => {
                             to contribute to impactful projects and collaborate
                             with cross-functional teams.
                           </p>
-                          <p className="font-noto-sans font-monospace">
+                          <p className="Poppins">
                             In addition, I have completed an{" "}
                             <strong style={{ textDecoration: "underline" }}>
                               AICET (All India Council for Technical Education )
