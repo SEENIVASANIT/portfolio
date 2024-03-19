@@ -32,6 +32,7 @@ cursor: pointer;
 .project-card{
     width: 25rem;
     border-radius: 10px;
+    
 }
 @media (max-width:991.98px) {
 .project-continer {
@@ -44,6 +45,21 @@ cursor: pointer;
     }
         .project-card {
             width: 18rem;
+            border-radius: 10px;
+        }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .project-continer {
+            margin-top: 10vh;
+            display: grid;
+            align-items: first baseline;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 2.5rem;
+    
+        }
+    
+        .project-card {
+            width: 20rem;
             border-radius: 10px;
         }
 }
